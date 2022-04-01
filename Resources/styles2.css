@@ -1,0 +1,68 @@
+hr {
+    margin: auto;
+    width: 50%
+}
+
+h1 {
+    text-align: center;
+    padding-top: 20px;
+    padding-bottom: 10px;
+}
+
+.center {
+    text-align: center;
+    padding-top: 20px;
+}
+
+p {
+    margin-left: auto;
+    margin-right: auto;
+    width: 30em;
+    padding-top: 6px;
+    text-align: justify
+    
+}
+
+.column {
+    position: relative;
+    margin-left: auto;
+    margin-right: auto;
+    background-color: white;
+    width: 50%;
+    height: 80vh;
+    top: 35px;
+}
+
+body {
+    background-color: whitesmoke;
+}
+
+.nav-item {
+    padding-right: 15px
+  }
+  
+  .navbar-brand {
+    font: large;
+    padding-left: 10px
+  }
+
+@media (max-width: 1000px) {
+
+    .column {
+        width: 85%
+    }
+
+    p {
+        margin-left: auto;
+        margin-right: auto;
+        padding-top: 30px;
+        padding-left: 30px;
+        padding-right:80px
+    }
+
+    .center img{
+        width: 50vh
+    }
+
+}
+  

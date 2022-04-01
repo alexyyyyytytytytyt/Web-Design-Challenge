@@ -1,0 +1,82 @@
+
+.container .row .center {
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.container .row table {
+
+    border-collapse: separate;
+    width: 80%
+}
+
+.container .row td {
+    border: 1px black solid;
+}
+
+.container .row th {
+    border: 1px black solid;
+}
+
+td, th {
+    padding-top: 10px;
+    padding-bottom: 10px;
+    padding-left: 10px;
+    padding-right: 10px;
+    font-size: 12px;
+}
+
+
+
+.container .row hr {
+    width: 90%;
+    margin: auto;
+}
+
+h1 {
+    text-align: center;
+    padding-top: 40px;
+    padding-bottom: 20px;
+}
+
+p {
+    padding-top: 20px;
+    padding-bottom: 10px;
+    text-align: center;
+}
+
+.container {
+    position: relative;
+    width: 70%;
+    height: 1633vmax;
+    background-color: white;
+    margin-left: auto;
+    margin-right: auto;
+    top: 35px;
+}
+
+body {
+    background-color: whitesmoke;
+}
+
+@media (max-width: 1000px) {
+    .container {
+        width: 90%;
+        height: 100%
+    }
+
+    .container .row table {
+
+        width: 20%
+    }
+
+    .hscroll {
+        overflow-x: auto; /* Horizontal */
+      }
+
+
+    td, th {
+        width:5px
+    }
+
+}
